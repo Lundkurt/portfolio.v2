@@ -116,6 +116,15 @@ footer a {
   background-color: black;
 }
 
+.discord {
+  height: 20px;
+  width: auto;
+  margin: auto 5px auto 0;
+}
+.discord-link {
+  font-family: "montserrat";
+}
+
 .border-bottom {
   width: 90%;
   border-bottom: solid 2px #bf8821;
@@ -138,6 +147,11 @@ footer a {
 
 .white {
   color: white;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
 nav ul {

@@ -114,3 +114,13 @@ footer {
 .cta-secondary {
   background-color: black;
 }
+
+.discord {
+  height: 20px;
+  width: auto;
+  margin: auto 5px auto 0;
+
+  &-link {
+    font-family: "montserrat";
+  }
+}
