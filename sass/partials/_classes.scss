@@ -1,0 +1,23 @@
+.border-bottom {
+  width: 90%;
+  border-bottom: solid 2px $orange;
+  margin: auto;
+}
+
+.border-top {
+  width: 90%;
+  border-top: solid 2px $orange;
+  margin: auto;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.purple {
+  color: $purple;
+}
+
+.white {
+  color: white;
+}

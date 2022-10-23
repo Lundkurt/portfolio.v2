@@ -1,0 +1,12 @@
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 30px;
+
+  & li a {
+    color: $purple;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,24 @@
+table {
+  font-family: "consolas";
+  border-collapse: collapse;
+  width: 300px;
+}
+
+td,
+th {
+  border: 1px solid $orange;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  color: $purple;
+}
+
+td {
+  color: $darkOrange;
+}
+
+tr:nth-child(even) {
+  background-color: $background-color;
+}

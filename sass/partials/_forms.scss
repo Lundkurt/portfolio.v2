@@ -1,0 +1,37 @@
+label {
+  background-color: gray;
+  border-radius: 5px 0 0 5px;
+  width: 90px;
+}
+
+input {
+  border-radius: 0 5px 5px 0;
+  border: none;
+}
+
+label,
+input,
+textarea {
+  padding: 5px;
+  font-size: 1.4rem;
+  font-family: "montserrat";
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  height: 2.5rem;
+  margin: 5px;
+}
+
+// .textarea-group {
+//   display: flex;
+//   flex-direction: column;
+//   width: 382px;
+// }
+
+// .message-label {
+//   width: 100%;
+//   border-radius: 5px 5px 0 0;
+// }

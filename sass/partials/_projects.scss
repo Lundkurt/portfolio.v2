@@ -1,0 +1,62 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.project {
+  border: solid 1px $darkOrange;
+  background-color: $background-color;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 300px;
+  padding: 10px;
+
+  &-image {
+    width: 291px;
+    height: 146px;
+  }
+
+  &-description {
+    & p {
+    }
+    & h2 {
+      margin: 0;
+    }
+  }
+
+  &-points {
+    & ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      @media (min-width: 1024px) {
+        margin-top: 15px;
+      }
+
+      & li {
+        color: $orange;
+      }
+    }
+  }
+
+  &-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    @media (min-width: 1024px) {
+      margin-top: auto;
+      gap: 25px;
+      margin-bottom: 15px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    max-width: 90%;
+    justify-content: space-around;
+  }
+}

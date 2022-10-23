@@ -1,0 +1,89 @@
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: $background-color;
+  font-family: "consolas";
+  max-width: 1440px;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat";
+}
+
+p {
+  max-width: 600px;
+  color: $darkOrange;
+}
+
+.active {
+  color: $orange;
+}
+
+html {
+  height: 100%;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+  margin: auto;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+nav {
+  @media (max-width: 1024px) {
+    margin: auto;
+  }
+}
+
+nav ul {
+  padding: 0;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "pristina";
+  font-size: 2rem;
+}
+
+footer {
+  flex-shrink: 0;
+  height: 100px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.cta {
+  height: 1.5rem;
+  border: solid 1px white;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.cta-primary {
+  background-color: $blue;
+}
+
+.cta-secondary {
+  background-color: black;
+}
